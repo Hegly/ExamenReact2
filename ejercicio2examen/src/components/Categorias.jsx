@@ -101,7 +101,7 @@ const Categorias = () => {
         let metodo;
         let urlAxios;
 
-        if (title === '') {
+        if (name === '') {
             alertaWarning('Escriba el nombre de la Categoria', 'name');
         } else {
             payload = {
